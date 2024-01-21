@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+* {
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(cityhall.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    backdrop-filter: blur(2px);
+    font-family: "Lemon", serif;
+    letter-spacing: 2px;
+    text-shadow:  2px 2px 5px rgb(0, 0, 0);
+    color: rgb(246, 235, 214);
+    font-size: 50px;
+    text-align: center;
+    outline-style: groove;
+    outline-color: rgb(190, 175, 156);
+    outline-width: 5px;
+    padding: 2%;
+}
+
+.main-content {
+    height: 100vh;
+    background-color: rgb(251, 239, 221);
+}
+
+.intro {
+    width: 80%;
+    outline-style: double;
+    outline-width: 5px;
+    padding: 3%;
+    transform: translateY(0.5in);
+    margin-left: 9%;
+}
+
+.intro .img-wrapper {
+    margin-left: 12%;
+}
+
+.img-wrapper img {
+    margin-left: 5%;
+    border-radius: 5px;
+    outline-style: dashed;
+    outline-color: rgb(114, 80, 38);
+    padding: 0.5%;
+}
+.intro-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px; 
+    text-indent: 40px;
+    margin-top: 5%;
+}
